@@ -1,0 +1,266 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Arimo", sans-serif;
+    background-color: #ffffff;
+    color: #1f2937;
+  }
+  
+  /* To prevent content going behind fixed navbar */
+  .content {
+    margin-top: 62px;
+  }
+  
+  /* ---------------- WELCOME SECTION ---------------- */
+  
+  .welcome-section {
+    padding: 100px 20px;
+    text-align: center;
+    background-color:rgb(237, 237, 237);
+  }
+  
+  .welcome-content h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    font-weight: 600;
+  }
+  
+  .welcome-content h3 {
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #374151;
+  }
+  
+  .welcome-content p {
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+    color: #6b7280;
+    line-height: 1.6;
+    font-size: 20px;
+  }
+  
+  .donation-link-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .donate-link {
+    padding: 12px 28px;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.3s ease;
+  }
+  
+  .donate-link:hover {
+    background-color: #1e40af;
+  }
+  
+  .ngo-link {
+    padding: 12px 28px;
+    background-color: #e5e7eb;
+    color: #111827;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.3s ease;
+  }
+  
+  .ngo-link:hover {
+    background-color: #d1d5db;
+  }
+  
+  /* ---------------- CATEGORIES SECTION ---------------- */
+  
+  .categories-section {
+    padding: 90px 30px 90px 30px;
+    text-align: center;
+  }
+  
+  .categories-section h2 {
+    font-size: 40px;
+    margin-bottom: 50px;
+    font-weight: 600;
+  }
+  
+  .categories-grid {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .category-card {
+    width: 340px;
+    padding: 35px 25px;
+    background-color: #2563eb;
+    /* border: 2px solid  #1e40af; */
+    border-radius: 10px;
+    transition: 0.3s ease;
+  }
+  
+  .category-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .category-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+  
+  .category-card p {
+    font-size: 20px;
+    color: #000000;
+    line-height: 1.5;
+  }
+  
+  /* ---------------- HOW IT WORKS ---------------- */
+  
+  .how-section {
+    padding: 90px 40px;
+    text-align: center;
+    background-color: #f9fafb;
+  }
+  
+  .how-section h2 {
+    font-size: 40px;
+    margin-bottom: 60px;
+    font-weight: 600;
+  }
+  
+  .steps-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .step {
+    max-width: 220px;
+    text-align: center;
+  }
+  
+  .circle {
+    width: 75px;
+    height: 75px;
+    background-color: #2563eb;
+    color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px auto;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  .step h4 {
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .step p {
+    font-size: 20px;
+    color: #6b7280;
+  }
+  
+  /* ---------------- IMPACT SECTION ---------------- */
+  
+  .impact-section {
+    padding: 90px 40px;
+    text-align: center;
+    background-color: #eef2f7;
+  }
+  
+  .impact-section h2 {
+    font-size: 40px;
+    margin-bottom: 50px;
+    font-weight: 600;
+  }
+  
+  .impact-cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .impact-card {
+    width: 260px;
+    padding: 45px 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 2px solid rgb(199, 202, 206);
+    transition: 0.3s ease;
+  }
+
+  .impact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .impact-card h1 {
+    font-size: 32px;
+    color: #2563eb;
+    margin-bottom: 10px;
+  }
+  
+  .impact-card p {
+    font-size: 20px;
+    color: #6b7280;
+  }
+  
+  /* ---------------- FOOTER ---------------- */
+  
+  .footer {
+    background-color: #f9fafb;
+    padding: 60px 40px 30px 40px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+  
+  .footer h3,
+  .footer h4 {
+    margin-bottom: 15px;
+    font-size: 24px;
+  }
+  
+  .footer p {
+    width: 450px;
+    font-size: 20px;
+    color: #6b7280;
+    margin-bottom: 8px;
+  }
+
+  .footer-links {
+    width: 250px;
+  }
+  
+  .copyright {
+    text-align: center;
+    font-size: 18px;
+    color: #9ca3af;
+    border-top: 1px solid #e5e7eb;
+    padding-top: 20px;
+  }
+  

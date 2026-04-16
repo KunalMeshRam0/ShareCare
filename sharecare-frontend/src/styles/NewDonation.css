@@ -1,0 +1,163 @@
+.donation-page{
+    background:#f8fafc;
+    min-height:100vh;
+    padding:40px 20px;
+    }
+    
+    /* BACK LINK */
+    
+    .back-link{
+    max-width:800px;
+    margin:0 auto 20px auto;
+    color:#374151;
+    cursor:pointer;
+    font-size:14px;
+    }
+    
+    /* CARD */
+    
+    .donation-card{
+    background:white;
+    max-width:800px;
+    margin:auto;
+    padding:40px;
+    border-radius:10px;
+    border:1px solid #e5e7eb;
+    }
+    
+    /* TITLE */
+    
+    .donation-card h2{
+    font-size:22px;
+    margin-bottom:5px;
+    }
+    
+    .subtitle{
+    color:#6b7280;
+    margin-bottom:25px;
+    }
+    
+    /* FORM */
+    
+    .donation-form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    }
+    
+    .donation-form label{
+    font-weight:500;
+    font-size:14px;
+    }
+    
+    /* INPUTS */
+    
+    input,
+    select,
+    textarea{
+    width:100%;
+    padding:10px;
+    border-radius:6px;
+    border:1px solid #d1d5db;
+    font-size:14px;
+    }
+    
+    textarea{
+    min-height:80px;
+    resize:none;
+    }
+
+    .image-preview-container{
+        display:flex;
+        gap:12px;
+        margin-top:10px;
+        flex-wrap:wrap;
+        }
+        
+        .preview-box{
+        position:relative;
+        }
+        
+        .preview-image{
+        width:100px;
+        height:100px;
+        object-fit:cover;
+        border-radius:8px;
+        border:1px solid #e5e7eb;
+        }
+        
+        .remove-image-btn{
+        position:absolute;
+        top:-6px;
+        right:-6px;
+        
+        background:#ef4444;
+        color:white;
+        border:none;
+        
+        width:22px;
+        height:22px;
+        
+        border-radius:50%;
+        cursor:pointer;
+        
+        font-size:12px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        }
+
+        .back-link{
+            cursor:pointer;
+            color:#2563eb;
+            font-size:14px;
+            margin-bottom:20px;
+            }
+            
+            .back-link:hover{
+            text-decoration:none;
+            }
+    
+    /* HELPER TEXT */
+    
+    small{
+    color:#6b7280;
+    font-size:12px;
+    }
+    
+    /* RADIO GROUP */
+    
+    .radio-group{
+    display:flex;
+    flex-direction:column;
+    gap:6px;
+    }
+    
+    /* BUTTONS */
+    
+    .form-buttons{
+    display:flex;
+    justify-content:space-between;
+    margin-top:20px;
+    }
+    
+    .cancel-btn{
+    background:#f3f4f6;
+    border:none;
+    padding:10px 20px;
+    border-radius:6px;
+    cursor:pointer;
+    }
+    
+    .submit-btn{
+    background:#3b82f6;
+    color:white;
+    border:none;
+    padding:10px 25px;
+    border-radius:6px;
+    cursor:pointer;
+    }
+    
+    .submit-btn:hover{
+    background:#2563eb;
+    }

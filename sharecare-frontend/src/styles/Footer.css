@@ -1,0 +1,104 @@
+.footer {
+    background: #f9fafb;
+    padding: 60px 80px 30px 80px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* CONTAINER */
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* BRAND */
+  
+  .footer-brand {
+    max-width: 320px;
+  }
+  
+  .brand-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+  }
+  
+  .footer-logo {
+    height: 40px;
+    width: auto;
+  }
+  
+  .brand-name {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1f2937;
+  }
+  
+  .brand-desc {
+    width: 300px;
+    text-align: left;
+    font-size: 14px;
+    color: #6b7280;
+    line-height: 1.6;
+  }
+  
+  /* QUICK LINKS */
+  
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-links h4 {
+    margin-bottom: 14px;
+    font-size: 16px;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #6b7280;
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  
+  .footer-links a:hover {
+    color: #2563eb;
+  }
+  
+  /* CONTACT */
+  
+  .footer-contact {
+    max-width: 280px;
+  }
+  
+  .footer-contact h4 {
+    margin-bottom: 14px;
+    font-size: 16px;
+  }
+  
+  .footer-contact p {
+    text-align: left;
+    font-size: 14px;
+    color: #6b7280;
+    line-height: 1.6;
+  }
+  
+  /* DIVIDER */
+  
+  .footer-divider {
+    /* border-top: 1px solid #e5e7eb; */
+    margin: 40px auto 20px auto;
+    max-width: 1200px;
+  }
+  
+  /* COPYRIGHT */
+  
+  .copyright {
+    text-align: center;
+    font-size: 13px;
+    color: #9ca3af;
+  }

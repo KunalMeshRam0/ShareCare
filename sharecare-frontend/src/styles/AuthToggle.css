@@ -1,0 +1,27 @@
+.auth-toggle {
+  display: flex;
+  align-items: center;
+  background-color: #f3f4f6;
+  padding: 3px;
+  border-radius: 10px;
+  height: 38px;
+}
+
+.toggle-btn {
+  margin: 0;
+  padding: 6px 16px;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  color: #1f2937;
+  white-space: nowrap;
+}
+
+.toggle-btn.active {
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+  color: white;
+}

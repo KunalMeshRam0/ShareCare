@@ -1,0 +1,42 @@
+.profile-container {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background: #f9fafb;
+    min-height: 80vh;
+  }
+  
+  .profile-card {
+    width: 400px;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #eee;
+  }
+  
+  .profile-field {
+    margin-bottom: 15px;
+  }
+  
+  .profile-field label {
+    font-size: 13px;
+    color: gray;
+  }
+  
+  .profile-field p {
+    margin-top: 5px;
+  }
+  
+  .profile-actions {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .profile-actions button {
+    padding: 8px 12px;
+    border: none;
+    background: #2563eb;
+    color: white;
+    border-radius: 6px;
+  }
